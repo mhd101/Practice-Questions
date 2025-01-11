@@ -258,11 +258,11 @@ public class Pattern {
         System.out.println();
         pattern12(5); // spaced triangle pyramid combined
         System.out.println();
-        pattern13(5);
+        pattern13(5); // hollow triangle pyramid
         System.out.println();
-        pattern14(5);
+        pattern14(5); // hollow down triangle pyramid
         System.out.println();
-        pattern15(5);
+        pattern15(5); // hollow diamond
     }
 
 
