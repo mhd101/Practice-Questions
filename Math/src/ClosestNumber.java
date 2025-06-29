@@ -24,7 +24,7 @@ public class ClosestNumber {
         int quotient = (n / m);
 
         int n1 = m * quotient;
-        int n2 = m > 0 ? m * (quotient + 1) : m * (quotient - 1);
+        int n2 = (n*m) > 0 ? m * (quotient + 1) : m * (quotient - 1); // check for each case when m & n are pos & neg
 
         int diff1 = Math.abs(n-n1);
         int diff2 = Math.abs(n-n2);
@@ -34,12 +34,16 @@ public class ClosestNumber {
         } else if(diff2 < diff1){
             return n2;
         } else {
+            // If the difference is same, then take maximum absolute value
             return (Math.abs(n1) > Math.abs(n2)) ? n1 : n2;
         }
 
     }
 
     public static void main(String[] args) {
-        System.out.println(ClosestNum(15,-6));
+        System.out.println(ClosestNum(15,-6)); // -18
+        System.out.println(ClosestNum(13, 4)); // 12
+        System.out.println(ClosestNum(-17, 4)); // -20
+        System.out.println(ClosestNum(-13, -2)); // -14
     }
 }
