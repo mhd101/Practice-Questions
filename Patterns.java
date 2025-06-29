@@ -1,4 +1,4 @@
-public class Pattern {
+public class Patterns {
 
     static void pattern1(int n){
         // no of rows
@@ -182,7 +182,7 @@ public class Pattern {
             System.out.println();
         }
     }
-    // hint: use matrix i&j to solve
+    // hint: use matrix i&j to solve (for hollow)
     static void pattern13(int n){
         // no of rows
         for(int i=0; i<n; i++){
