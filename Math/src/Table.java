@@ -1,3 +1,13 @@
+/* 
+Create the multiplication table from 1 to 10 for a given number n and return the table as an array.
+
+Input: n = 9
+Output: 9 18 27 36 45 54 63 72 81 90
+
+Constraints: 
+1 <= N <= 106
+*/
+
 import java.util.ArrayList;
 
 public class Table {
