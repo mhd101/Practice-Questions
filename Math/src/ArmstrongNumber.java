@@ -1,3 +1,16 @@
+/*
+You are given a 3-digit number n, Find whether it is an Armstrong number or not.
+
+An Armstrong number of three digits is a number such that the sum of the cubes of its digits is equal to the number itself. 371 is an Armstrong number since 33 + 73 + 13 = 371. 
+
+Constraints:
+100 ≤ n <1000 
+
+Time Complexity: O(1)
+Auxiliary Space: O(1)
+*/
+
+
 public class ArmstrongNumber {
     static boolean armstrongNumber(int n){
         boolean flag = false;
