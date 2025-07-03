@@ -21,7 +21,6 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        Factorial f = new Factorial();
-        System.out.println(f.factorial(5));
+        System.out.println(factorial(5));
     }
 }
