@@ -20,6 +20,7 @@ Auxiliary Space: O(1)
 public class PairCubeCount {
     static int pairCubeCount(int n){
         int count = 0;
+        
         for(int i = 1; i*i*i <= n; i++){
             for(int j = 0; j*j*j <= n; j++){
                 if((Math.pow(i,3) + Math.pow(j,3)) == n){
