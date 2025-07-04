@@ -10,7 +10,7 @@ Output 3
 Explanation: Sum of 12's digits: 1 + 2 = 3
 
 Constraints:
-1 <= n <= 105
+1 <= n <= 10^5
 
 Expected Complexities
 Time Complexity: O(log n)

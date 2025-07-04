@@ -8,7 +8,7 @@ Output: 45
 Explanation: 45 is the largest Jumping Number possible for X = 50.
 
 Constraints:
-1 <= n <= 109
+1 <= n <= 10^9
 
 Expected Complexities:
 Time Complexity: O(n)

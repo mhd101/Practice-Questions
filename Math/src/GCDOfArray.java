@@ -6,7 +6,7 @@ Output: 1
 Explanation: GCD of 1,2,3 is 1.
 
 Constraints:
-1 ≤ N, arr[i] ≤ 105
+1 ≤ N, arr[i] ≤ 10^5
 
 Expected Complexities:
 Time Complexity: O(n log n)

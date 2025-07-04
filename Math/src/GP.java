@@ -7,7 +7,7 @@ Output: 16
 Explanation: The GP series is 2, 4, 8, 16, 32,... in which 16 is the 4th term.
 
 Constraints:
-1 ≤ a, r, n ≤ 106
+1 ≤ a, r, n ≤ 10^6
 */
 
 import java.math.BigInteger;

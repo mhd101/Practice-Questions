@@ -9,7 +9,7 @@ Output: false
 Explanation: Factors of 10 are 1, 2, 5 and 10. Excluding 10 their sum is 8 which is not equal to n itself. So, it's not a Perfect Number.
 
 Constraints:
-1 ≤ n ≤ 109
+1 ≤ n ≤ 10^9
 
 Expected Complexities:
 Time Complexity: O(sqrt(n))

@@ -10,7 +10,7 @@ Output: 4
 Explanation: GCD of 20 and 28 is 4
 
 Constraints:
-1 ≤ a, b ≤ 109
+1 ≤ a, b ≤ 10^9
 
 Expected Complexities:
 Time Complexity: O(log(min(a, b)))

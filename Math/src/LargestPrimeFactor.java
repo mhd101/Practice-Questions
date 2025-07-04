@@ -12,7 +12,7 @@ Output: 29
 Explanation: The prime factorization of 13195 is 5×7×13×29. The largest prime factor is 29.
 
 Constraints:
-2 <= n <= 109
+2 <= n <= 10^9
 
 Expected Complexities:
 Time Complexity: O(sqrt(n))

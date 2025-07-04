@@ -10,7 +10,7 @@ Output: 2
 Explanation: By reversing the digits of number, number will change into 2.
 
 Constraints:
-1 <= n <= 106
+1 <= n <= 10^6
 
 Expected Complexities:
 Time Complexity: O(log n)

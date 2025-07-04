@@ -7,7 +7,7 @@ Explanation: 52 = 25 and second digit from right is 2.
 
 Constraints:
 1 <= a,b <= 15
-1 <= k <= digits in ab
+1 <= k <= digits in a^b
 */
 
 public class PrintKthDigit {
