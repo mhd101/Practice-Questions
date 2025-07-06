@@ -22,13 +22,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Sieve {
-    static ArrayList<Integer> sieve(int n) {
+    static int[] sieve(int n) {
         int[] prime = new int[n+1];
         // fill all places with 1
         Arrays.fill(prime, 1);
 
         // create array list to store the result
-        ArrayList<Integer> res = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         // run loop from 2 to n 
         for(int i = 2; i <= n; i++){
@@ -37,9 +37,16 @@ public class Sieve {
                 for(int j = i * i; j <= n; j += i){ // mark all its multiple 0
                     prime[j] = 0;
                 }
-                res.add(i); // add the current index(i) to the result
+                list.add(i); // add the current index(i) to the result
             }
 
+        }
+
+        // convert arraylist to arr
+        int[] res = new int[list.size()];
+
+        for(int i = 0; i < res.length; i++){
+            res[i] = list.get(i);
         }
         return res;
     }
