@@ -10,8 +10,8 @@ Output: 7
 Explanation: 1 + 3 + 3 = 7.
 
 Constraints:
-1 <= arr.size <= 105
-1 <= arr[i] <= 104
+1 <= arr.size <= 10^5
+1 <= arr[i] <= 10^4
 
 Expected Complexities:
 Time Complexity: O(n)
