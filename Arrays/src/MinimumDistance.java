@@ -14,8 +14,8 @@ Output: 4
 Explanation: The distance between x = 10 (index 0) and y = 50 (index 4) is 4, which is the only distance between them.
 
 Constraints:
-1 <= arr.size() <= 105
-0 <= arr[i], x, y <= 105
+1 <= arr.size() <= 10^5
+0 <= arr[i], x, y <= 10^5
 x != y
 
 Expected Complexities
